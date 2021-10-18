@@ -1,0 +1,7 @@
+.profile__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    margin-bottom: 50px;
+}

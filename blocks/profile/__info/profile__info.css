@@ -1,0 +1,7 @@
+.profile__info {
+    width: 336px;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-right: 212px;
+}
