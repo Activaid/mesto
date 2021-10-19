@@ -11,6 +11,12 @@
 @import url('../header/__container/header__container.css');
 @import url('../header/__logo/header__logo.css');
 
+/* Tilt effect */
+@import url('../blocks/tilt/tilt.css');
+
+/* Grow effect */
+@import url('../blocks/grow/grow.css');
+
 /* Profile */
 @import url('../blocks/profile/profile.css/');
 @import url('../blocks/profile/__container/profile__container.css');
@@ -36,3 +42,7 @@
 @import url('../blocks/card/__title/card__title.css');
 @import url('../blocks/card/__like-btn/card__like-btn.css');
 @import url('../blocks/card/__flex/card__flex.css');
+
+/* Footer */
+@import url('../blocks/footer/__container/footer__container.css');
+@import url('../blocks/footer/__copy/footer__copy.css');

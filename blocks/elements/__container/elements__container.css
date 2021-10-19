@@ -1,6 +1,12 @@
 .elements__container {
     margin: auto;
-    margin-bottom: 46px;
+    margin-bottom: 70px;
     padding-left: 19px;
     padding-right: 19px;
+}
+
+@media screen and (max-width: 991px) {
+    .elements__container {
+        margin-bottom: 51px;
+    }
 }
