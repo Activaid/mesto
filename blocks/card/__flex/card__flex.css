@@ -1,0 +1,8 @@
+.card__flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    padding-top: 25px;
+    max-width: 246px;
+}

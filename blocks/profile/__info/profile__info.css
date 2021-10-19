@@ -1,7 +1,14 @@
 .profile__info {
-    width: 336px;
+    max-width: 336px;
     display: flex;
     justify-content: space-between;
     align-items: baseline;
-    margin-right: 212px;
+    padding-left: 30px;
+    margin-right: auto;
+}
+
+@media screen and (max-width: 767px) {
+    .profile__info {
+        margin: 0;
+    }
 }
