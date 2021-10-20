@@ -1,6 +1,9 @@
 @import url('../vendor/normalize.css');
 @import url('../vendor/fonts.css');
 
+/* Root */
+@import url('../blocks/root/root.css');
+
 /* Page */
 @import url('../blocks/page/page.css');
 
@@ -46,3 +49,14 @@
 /* Footer */
 @import url('../blocks/footer/__container/footer__container.css');
 @import url('../blocks/footer/__copy/footer__copy.css');
+
+/* Popup */
+@import url('../blocks/popup/popup.css');
+@import url('../blocks/popup/_opened/popup_opened.css');
+@import url('../blocks/popup/__container/popup__container.css');
+@import url('../blocks/popup/__close-btn/popup__close-btn.css');
+@import url('../blocks/popup/__title/popup__title.css');
+@import url('../blocks/popup/__form/popup__form.css');
+@import url('../blocks/popup/__edit-title/popup__edit-title.css');
+@import url('../blocks/popup/__edit-subtitle/popup__edit-subtitle.css');
+@import url('../blocks/popup/__btn/popup__btn.css');

@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="pages/index.css">
 </head>
 
-<body>
+<body class="root">
     <div class="page">
         <header class="header">
             <div class="container header__container">
@@ -95,9 +95,22 @@
 
         <footer class="footer">
             <div class="container footer__container">
-                <p class="footer__copy">&copy;&nbsp;2020 Mesto Russia</p>
+                <p class="footer__copy">&copy;&nbsp;2021 Mesto Russia</p>
             </div>
         </footer>
+
+        <div class="popup popup_opened">
+            <div class="popup__container">
+                <button class="popup__close-btn btn-reset"></button>
+                <h2 class="popup__title">Редактировать профиль</h2>
+                <form class="popup__form">
+                    <input type="text" class="popup__edit-title">
+                    <input type="text" class="popup__edit-subtitle">
+                    <button class="popup__btn btn-reset">Сохранить</button>
+                </form>
+
+            </div>
+        </div>
     </div>
 
 </body>

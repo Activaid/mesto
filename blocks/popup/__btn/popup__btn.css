@@ -1,0 +1,17 @@
+.popup__btn {
+    height: 50px;
+    background-color: black;
+    border-radius: 2px;
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+    color: white;
+    font-family: inherit;
+}
+
+@media screen and (max-width: 575px) {
+    .popup__btn {
+        height: 46px;
+        font-size: 14px;
+    }
+}
