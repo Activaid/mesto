@@ -1,6 +1,3 @@
 .card__like-btn_active {
-    width: 24px;
-    height: 19px;
     background-image: url('../../../../images/like-fill.svg');
-    background-repeat: no-repeat;
 }

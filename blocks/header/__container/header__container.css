@@ -1,14 +1,15 @@
 .header__container {
-    max-height: 74px;
+    min-height: 74px;
     padding-top: 45px;
-    border-bottom: 1px solid #545454;
-    margin-bottom: 39px;
+    border-bottom: 1px solid rgba(84, 84, 84, .7);
+    margin-bottom: 38px;
 }
 
 @media screen and (max-width: 575px) {
     .header__container {
-        max-height: 56px;
+        min-height: 56px;
         padding-top: 28px;
         margin-bottom: 42px;
+        padding-left: 0;
     }
 }

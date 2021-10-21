@@ -4,6 +4,7 @@
     border-radius: 2px;
     font-weight: 400;
     font-size: 18px;
+    line-height: 22px;
     text-align: center;
     color: white;
     font-family: inherit;
@@ -18,5 +19,6 @@
     .popup__btn {
         height: 46px;
         font-size: 14px;
+        line-height: 17px;
     }
 }

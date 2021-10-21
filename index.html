@@ -11,99 +11,93 @@
 
 <body class="root">
     <div class="page">
-        <header class="header">
-            <div class="container header__container">
-                <img src="images/logo.svg" alt="Логотип Mesto Россия" class="header__logo logo">
-            </div>
+
+        <header class="header container header__container">
+            <img src="images/logo.svg" alt="Логотип Mesto Россия" class="header__logo logo">
         </header>
 
         <main class="main">
-
-            <section class="profile">
-                <div class="container profile__container">
-                    <img src="images/avatar.jpg" alt="Аватар" class="profile__image tilt">
-                    <div class="profile__info">
-                        <div class="profile__text">
-                            <h1 class="profile__name">Жак-Ив Кусто</h1>
-                            <p class="profile__about">Исследователь океана</p>
-                        </div>
-                        <button class="profile__edit-btn btn-rst"></button>
+            <section class="profile container profile__container">
+                <img src="images/avatar.jpg" alt="Аватар" class="profile__image tilt">
+                <div class="profile__info">
+                    <div class="profile__text">
+                        <h1 class="profile__name">Жак-Ив Кусто</h1>
+                        <p class="profile__about">Исследователь океана</p>
                     </div>
-                    <button class="profile__add-btn btn-rst"></button>
+                    <button class="profile__edit-btn btn-rst" type="button" aria-label="Редактировать профиль"></button>
                 </div>
+                <button class="profile__add-btn btn-rst" type="button" aria-label="Добавить фото"></button>
             </section>
 
-            <section class="elements" aria-label="Карточки мест">
-                <div class="container elements__container">
-                    <ul class="cards">
-                        <li class="card">
-                            <img src="images/underwater-at-aitutaki.jpg" alt="Под водой в Аитутаки"
-                                class="card__image grow">
-                            <div class="card__flex">
-                                <h2 class="card__title overfull">Аитутаки</h2>
-                                <button class="card__like-btn btn-rst"></button>
-                            </div>
-                        </li>
+            <section class="elements container elements__container" aria-label="Карточки мест">
+                <ul class="elements__item">
+                    <li class="card">
+                        <img src="images/underwater-at-aitutaki.jpg" alt="Под водой в Аитутаки"
+                            class="card__image grow">
+                        <div class="card__flex">
+                            <h2 class="card__title">Аитутаки</h2>
+                            <button class="card__like-btn btn-rst" type="button" aria-label="Поставить лайк"></button>
+                        </div>
+                    </li>
 
-                        <li class="card">
-                            <img src="images/the-bering-sea.jpg" alt="Пан льда в Беринговом море"
-                                class="card__image grow">
-                            <div class="card__flex">
-                                <h2 class="card__title overfull">Берингово море</h2>
-                                <button class="card__like-btn btn-rst"></button>
-                            </div>
-                        </li>
+                    <li class="card">
+                        <img src="images/the-bering-sea.jpg" alt="Пан льда в Беринговом море" class="card__image grow">
+                        <div class="card__flex">
+                            <h2 class="card__title">Берингово море</h2>
+                            <button class="card__like-btn btn-rst" type="button" aria-label="Поставить лайк"></button>
+                        </div>
+                    </li>
 
-                        <li class="card">
-                            <img src="images/bahamas.jpg" alt="Багамы" class="card__image grow">
-                            <div class="card__flex">
-                                <h2 class="card__title overfull">Багамские острова</h2>
-                                <button class="card__like-btn btn-rst"></button>
-                            </div>
-                        </li>
+                    <li class="card">
+                        <img src="images/bahamas.jpg" alt="Багамы" class="card__image grow">
+                        <div class="card__flex">
+                            <h2 class="card__title">Багамские острова</h2>
+                            <button class="card__like-btn btn-rst" type="button" aria-label="Поставить лайк"></button>
+                        </div>
+                    </li>
 
-                        <li class="card">
-                            <img src="images/madagascar.jpg" alt="Загадки Мадагаскара" class="card__image grow">
-                            <div class="card__flex">
-                                <h2 class="card__title overfull">Мадагаскар</h2>
-                                <button class="card__like-btn btn-rst"></button>
-                            </div>
-                        </li>
+                    <li class="card">
+                        <img src="images/madagascar.jpg" alt="Загадки Мадагаскара" class="card__image grow">
+                        <div class="card__flex">
+                            <h2 class="card__title">Мадагаскар</h2>
+                            <button class="card__like-btn btn-rst" type="button" aria-label="Поставить лайк"></button>
+                        </div>
+                    </li>
 
-                        <li class="card">
-                            <img src="images/sumatra.jpg" alt="Сердце моря" class="card__image grow">
-                            <div class="card__flex">
-                                <h2 class="card__title overfull">Суматра</h2>
-                                <button class="card__like-btn btn-rst"></button>
-                            </div>
-                        </li>
+                    <li class="card">
+                        <img src="images/sumatra.jpg" alt="Сердце моря" class="card__image grow">
+                        <div class="card__flex">
+                            <h2 class="card__title">Суматра</h2>
+                            <button class="card__like-btn btn-rst" type="button" aria-label="Поставить лайк"></button>
+                        </div>
+                    </li>
 
-                        <li class="card">
-                            <img src="images/baikal.jpg" alt="Зазеркалье Байкала" class="card__image grow">
-                            <div class="card__flex">
-                                <h2 class="card__title overfull">Озеро Байкал</h2>
-                                <button class="card__like-btn btn-rst"></button>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
+                    <li class="card">
+                        <img src="images/baikal.jpg" alt="Зазеркалье Байкала" class="card__image grow">
+                        <div class="card__flex">
+                            <h2 class="card__title">Озеро Байкал</h2>
+                            <button class="card__like-btn btn-rst" type="button" aria-label="Поставить лайк"></button>
+                        </div>
+                    </li>
+                </ul>
             </section>
         </main>
 
-        <footer class="footer">
-            <div class="container footer__container">
-                <p class="footer__copy">&copy;&nbsp;2021 Mesto Russia</p>
-            </div>
+        <footer class="footer container footer__container">
+            <p class="footer__copy">&copy;&nbsp;2021 Mesto Russia</p>
         </footer>
 
         <div class="popup">
             <div class="popup__container">
-                <button class="popup__close-btn btn-rst"></button>
+                <button class="popup__close-btn btn-rst" type="button"
+                    aria-label="Закрыть редактирование профиля"></button>
                 <h2 class="popup__title">Редактировать профиль</h2>
-                <form class="popup__form">
-                    <input type="text" class="popup__input popup__input_type_name">
-                    <input type="text" class="popup__input popup__input_type_about">
-                    <button class="popup__btn btn-rst">Сохранить</button>
+                <form class="popup__form" name="formPopup">
+                    <input type="text" class="popup__input popup__input_type_name" name="formPopupName"
+                        placeholder="Как Вас зовут?" required>
+                    <input type="text" class="popup__input popup__input_type_about" name="formPopupAbout"
+                        placeholder="Напишите пару слов о себе..." required>
+                    <button class="popup__btn btn-rst" type="submit">Сохранить</button>
                 </form>
             </div>
         </div>

@@ -9,10 +9,9 @@ const profileAbout = document.querySelector('.profile__about');
 
 function openPopup() {
     popup.classList.add('popup_opened')
+    nameInput.value = profileName.textContent;
+    aboutInput.value = profileAbout.textContent;
 }
-
-nameInput.value = profileName.textContent;
-aboutInput.value = profileAbout.textContent;
 
 function closePopup() {
     popup.classList.remove('popup_opened')
