@@ -1,9 +1,9 @@
-.footer_container {
+.page__footer {
     padding-bottom: 56px;
 }
 
 @media screen and (max-width: 991px) {
-    .footer_container {
+    .page__footer {
         padding-bottom: 34px;
     }
 }
