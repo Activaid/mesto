@@ -58,6 +58,6 @@ https://activaid.github.io/mesto/
   
 ## Автор
 
-- [@Andrey Smiyan ](https://github.com/Activaid) Студент ЯндексПрактикума
+- [@Andrey Smiyan ](https://github.com/Activaid)
 
   
